@@ -34,7 +34,7 @@ def sum_array(array)
 end
 
 def add_s(array) #work on
-  array.drop().map { |element, index| "#{element}s" }
+  array.drop(1).map { |element, index| "#{element}s" }
 end
 
   # [1,2].each_with_index.collect{|element, index|}
