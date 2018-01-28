@@ -36,6 +36,7 @@ end
 def add_s(array) #work on
   array.each_with_index.collect { |element, index| "#{element}s" }
 end
+binding.pry
 
   # [1,2].each_with_index.collect{|element, index|}
   # array.collect { |element| element+"s" }
