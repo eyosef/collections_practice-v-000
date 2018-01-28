@@ -22,6 +22,7 @@ end
 
 def kesha_maker(array)
   array.each do |element| #work on
+    puts "#{element[2]}"
   end #end
 end #method
 
