@@ -22,7 +22,7 @@ end
 
 def kesha_maker(array)
   array.each do |element| #work on
-    yield("#{element[2]}")
+    yield("#{element[2]}" == "s")
   end #end
 end #method
 
