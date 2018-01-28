@@ -33,5 +33,5 @@ end
 
 def add_s(array) #work on
   array[3..-1].collect { |element| element+"s"}
-  array[3..-1].collect { |element| element+"s"}
+  array[0..1].collect { |element| element+"s"}
 end
