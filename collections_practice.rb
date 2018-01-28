@@ -21,7 +21,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do { |element| } #work on
+  array.each do { |element| "#{element[2]}" == "s"} #work on
     yield("#{element[2]}" == "s")
   end #end
 end #method
