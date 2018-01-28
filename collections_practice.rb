@@ -32,7 +32,7 @@ def sum_array(array)
 end
 
 def add_s(array) #work on
-  array.each_with_index.collect { |element, index| "#{array}s" }
+  array.each_with_index.collect { |element, index| "#{element}s" }
 end
 
   # [1,2].each_with_index.collect{|element, index|}
